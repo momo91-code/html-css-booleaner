@@ -83,8 +83,93 @@
 
 .lorem{
     margin-left: 170px;
-    width: 80%;
+    width: 79%;
+    margin-top:50px;
+}
+
+.tabella{
+    height: 200px;
+    margin-left: 187px;
+    margin-top: 50px;
+    width: 76%;
+}
+
+ul li{
+    margin-bottom: 10px;
+}
+
+.tabella2{
+    margin-left: 180px;
+    height: 400px;
+    width: 79%;
+    margin-top: 60px;
 }
 
 
+table{
+    height: 300px;
+    border-collapse: collapse;
+}
 
+#thead{
+    background-color: rgb(56, 165, 243);
+    color:white;
+}
+
+#tbody1{
+    background-color: rgb(130, 195, 241);
+}
+
+#tbody2{
+    background-color: white;
+}
+
+#tbody3{
+    background-color: rgb(130, 195, 241);
+}
+
+.lorem2{
+    margin-left: 170px;
+    width: 79%;
+    margin-top:50px;
+}
+
+.footer1{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+
+.scritta{
+    height: 50px;
+    color:gray;
+    margin-left: 170px;
+    margin-top: 70px;
+}
+
+.foto1{
+    background-image: url(img/monitor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    margin-left: 169px;
+}
+
+.foto1 p{
+    color:white;
+}
+
+
+.foto2{
+    background-image: url(img/graph.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    margin-left: 169px;
+}
+
+.foto2 p{
+    color:white;
+}
