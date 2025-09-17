@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.pattern{
+    background-image:url(img/pattern.png);
+    height: 100px;
+    background-color: rgb(15, 153, 228);
+    background-size:contain;
+    display: flex;
+}
+
+.logo{
+    background-image: url(img/logo.svg);
+    margin-top: 40px;
+    height: 180px;
+    width: 180px;
+    background-repeat: no-repeat;
+    margin-left: 60px;
+}
+
+.titolo{
+    height: 170px;
+}
+
+.titolo h1{
+   margin-left: 190px;
+   margin-top: 25px;
+   font-size: 49px;
+}
+
+.titolo p{
+    margin-left: 190px;
+    color:gray;
+}
+
+.titolo h4{
+    color: rgb(15, 153, 228);
+    margin-left:265px;
+    margin-top:-19px;
+}
+
+.immagini{
+    display:flex;
+    height: 440px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.immagine1{
+    height: 500px;
+    width: 500px;
+    background-image: url(img/tim-1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top:40px;
+    margin-left: 90px;
+}
+
+.immagine2{
+    height: 500px;
+    width: 500px;
+    background-image: url(img/tim-2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 40px;
+    margin-right: 90px;
+}
+
+.descrizioni{
+    height: 50px;
+    margin-left: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+}
+
